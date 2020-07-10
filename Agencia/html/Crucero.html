@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    
+    <title>Aerolinea</title>
+    
+
+
+    <style type="text/css">
+        
+        .wrapper{ width: 500px; padding: 40px; margin-left:35%; margin-top:30pt;background: white; overflow:auto; background: white;margin-top:10%}
+        .con{width: 100%; position:fixed; align-content: center; top:0}
+        .input{width: 400px;}
+        
+        body{ background-repeat: no-repeat;
+        background-size: cover; 
+        
+        
+        background-attachment: fixed;
+        min-height: 90%;}
+       
+    </style>
+
+
+</head>
+<body>
+
+    <div class="con">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid ">
+                <div class="navbar-header">
+                <a class="navbar-brand" >AeroTec</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="../index.html">Inicio</a></li>
+                
+                <li class="active"><a href="Crucero.html">Hacer Reservacion</a></li>
+                <li> <a href="ActualizarReservacion.html"> Actualizar Reservacion</a></li>
+                <li><a href="EliminarReservacion.html">Eliminar Reservación</a></li>
+                
+                
+                </ul>
+            </div>
+        </nav>
+    </div>
+   
+    
+
+    <div class="wrapper"> 
+        
+        <h3> <center>Haz tu Reservación para tu viaje en Crucero</center> </h3>
+        <br>
+        <br>
+       
+        <form action="../php/createReservacion.php" method ="POST">
+
+            <div class="form-group ">
+                <label for="noReservacion">No. Reservacion</label>
+                <input class="form-control " type="text"  id="noReservacion" name="noReservacion" placeholder="No. Reservacion">
+
+                <label  for="nombreUsuario">Nombre del Pasajero:</label>
+                <input class="form-control " type="text"  id="nombreUsuario" name="nombreUsuario" placeholder="Nombre">
+                
+            </div>
+
+            <div class="form-group ">
+                <label for="nombreRuta">Destino:</label>
+                <select for="nombreRuta" name="nombreRuta" class="form-control ">
+                    <option value="Islas Griegas">Islas Griegas</option>
+                    <option value="Mediterraneo Occidental">Mediterraneo Occidental</option>
+                    <option value="Santorini">Santorini</option>
+                    <option value="Venecia">Venecia</option>
+
+                </select> 
+
+        
+            </div>
+
+            <div class="form-group ">
+                <label for="fechaSalida">Fecha:</label>
+                <input class="form-control" type="date" name="fechaSalida" id="fechaSalida" placeholder="Fecha de Salida">
+
+                <label for="horaSalida">Hora:</label>
+                <input class="form-control" type="time" name="horaSalida" id="horaSalida" placeholder="Hora de Salida">
+
+            </div>
+
+            <div class="form-group ">
+                <label  for="costo">Costo:</label>
+                <input class="form-control" type="text"  id="costo" name="costo" placeholder="MNX">
+                
+            </div>
+           
+            <button  type="submit" class="btn btn-primary">Hacer Reservacion</button>
+            
+        
+        </form>
+    
+    </div>
+
+   
+    
+</body>
+</html>
