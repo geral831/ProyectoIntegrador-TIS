@@ -88,10 +88,27 @@
 ### API Crucero 
 - Hacer reservacion 
   - Se ingresan los datos  para realizar la reservación
-  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará alguno de los tres mensajes de error
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
 - Editar reservacion 
-  - Se ingresan los datos para ver la reservacion
-  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará alguno de los dos mensajes de error
+  - Se ingresan los datos para editar la reservacion
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
 - Eliminar reservacion 
-  - Se ingresan los datos para ver la reservacion
-  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará un mensaje de error
+  - Se ingresan los datos para eliminar la reservacion
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
+### API Aereolínea 
+- Agregar pasajero 
+  - Se ingresan los datos  para realizar agreagar un pasajero
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
+- Editar pasajero
+  - Se ingresan los datos para editar los datos de algun pasajero
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
+- Eliminar pasajero 
+  - Se ingresan los datos para eliminar los datos de algún pasajero
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
+### API Banco 
+- Realizar pago 
+  - Se ingresan los datos  para realizar el pago de algun servicio (Crucero / Aereolinea) 
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
+- Realizar reembolso
+  - Se ingresan los datos  para realizar el reembolso por la cancelación de algun servicio (Crucero / Aereolinea) 
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
