@@ -85,3 +85,13 @@
 | -------- | ---- | ------ |
 | num_tarjeta | String | setNumTarjeta() / getNumTarjeta() |
 | pago_por_reservacion | int | setPagoPorReservacion() / getPagoPorReservacion() |
+### API Crucero 
+- Hacer reservacion 
+  - Se ingresan los datos  para realizar la reservación
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará alguno de los tres mensajes de error
+- Editar reservacion 
+  - Se ingresan los datos para ver la reservacion
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará alguno de los dos mensajes de error
+- Eliminar reservacion 
+  - Se ingresan los datos para ver la reservacion
+  - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará un mensaje de error
