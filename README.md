@@ -5,7 +5,7 @@
 ### Geraldine Ortiz Fernández 
 
 ### Servicios 
-1. Crucero [URL del servicio](http://3.87.203.171:9191/crucero.wsd)
+1. Crucero [URL del servicio](http://3.87.203.171:9191/crucero.wsdl)
 2. Aereolínea [URL del servicio](http://54.90.84.87:8080/ws/aeropuerto.wsdl)
 3. Banco [URL del servicio](http://3.87.203.171:8080/banco.wsdl)
 
