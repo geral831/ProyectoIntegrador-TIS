@@ -115,3 +115,22 @@
 - Realizar reembolso
   - Se ingresan los datos  para realizar el reembolso por la cancelación de algun servicio (Crucero / Aereolinea) 
   - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
+### Tutorial: Consumo servicio (Windows)
+1. Contar con un servidor web local activo (XAMPP y Apache especificamente)
+2. Contar con la siguiente configuracion dentro del archivo XAMPP en nuestro disco local 
+  - Ingreasar en la ruta: C:\xampp\php\php.ini
+  - Buscar la línea -> extension=php_soap.dll
+  - En caso de no encontrarla, agregarla y guardar los cambios
+  - En caso de que se encuentre de la siguiente manera -> ;extension=php_soap.dll -> quitar el ";"
+  - En caso de encontrarla de la siguiente manera -> extension=php_soap.dll -> cerrar el archivo sin guardar cambios 
+  - Apagar servidor y reinicarlo
+3. Descargar proyecto "Agencia"
+4. Mover el archivo completo, en una sola carpeta llamada "Agencia" a la siguiente ruta dentro de tu computadora: 
+  - C:\xampp\htdocs
+  - Quedando de la siguiente manera (ruta) -> C:\xampp\htdocs\Agencia
+5. Para consultar el consumo del servicio: 
+  - Escribir en tu navegador web alguna de las siguientes url's: 
+      - localhost/Agencia [URL del consumo](http://localhost/Agencia)
+      - localhost/Agencia/index.html [URL del consumo](http://localhost/Agencia/index.html)
+      - 127.0.0.1/Agencia [URL del consumo](http://127.0.0.1/Agencia)
+      - 127.0.0.1/Agencia/index.html [URL del consumo](http://127.0.0.1/Agencia/index.html)
