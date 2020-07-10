@@ -85,6 +85,8 @@
 | -------- | ---- | ------ |
 | num_tarjeta | String | setNumTarjeta() / getNumTarjeta() |
 | pago_por_reservacion | int | setPagoPorReservacion() / getPagoPorReservacion() |
+### Arquitectura del Servicio Web 
+- ![](https://github.com/geral831/ProyectoIntegrador-TIS/tree/master/AGENCIA_IMG)
 ### API Crucero 
 - Hacer reservacion 
   - Se ingresan los datos  para realizar la reservación
@@ -95,8 +97,7 @@
 - Eliminar reservacion 
   - Se ingresan los datos para eliminar la reservacion
   - En caso de ingresar algún dato de manera incorrecta, el sistema mostrará algun mensaje de error
-  ### Arquitectura del Servicio Web 
-- ![](https://github.com/ElsaCR/Proyecto_Integrador/blob/master/AGENCIA_IMG/arquitectura_servicio.png)
+  
 ### API Aereolínea 
 - Agregar pasajero 
   - Se ingresan los datos  para realizar agreagar un pasajero
